@@ -13,13 +13,14 @@
 | Создание пользователя через БД | `TestUserHelper` и `PdoUserDatabase` |
 | Работа без настоящей БД | `TestUserHelperTest` |
 | API-запрос создания пользователя | `CreateUserRequest` и `examples/create_user.php` |
-| Дополнительные сценарии | `ADDITIONAL_SCENARIOS.md` |
+| Дополнительные сценарии | `additional-tests.md` |
 
 ## Структура проекта
 
 ```text
 .
 ├── .github/workflows/tests.yml
+├── additional-tests.md
 ├── examples
 │   ├── create_user.php
 │   └── valid_login_setup.php
