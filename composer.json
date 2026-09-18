@@ -1,0 +1,33 @@
+{
+    "name": "qa/stellantis-auth-tests",
+    "description": "Functional checks for the Stellantis AutoCRM authorization form",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": "^8.2",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "php-webdriver/webdriver": "^1.15"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stellantis\\Tests\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Stellantis\\Tests\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "test:unit": "phpunit --testsuite unit",
+        "test:functional": "phpunit --testsuite functional"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

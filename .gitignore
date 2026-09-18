@@ -1,0 +1,7 @@
+/vendor/
+/.phpunit.cache/
+/.env
+/var/
+/.DS_Store
+/SOLUTION.md
+/stellantis_auth_tests.zip
